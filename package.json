@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/Granze/github-profile",
   "dependencies": {
-    "react": "^0.11.1"
+    "react": "^0.11.1",
+    "superagent": "^0.18.2"
   },
   "devDependencies": {
     "browserify": "^5.10.0",
