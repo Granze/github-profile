@@ -1,0 +1,63 @@
+.github-profile {
+  *, *:before, *:after {
+    box-sizing: border-box;
+  }
+  overflow: hidden;
+  position: relative;
+  width: 300px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 10px 10px 10px 160px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+  background-color: whitesmoke;
+  a {
+    color: #d7d7d7;
+    text-decoration: none;
+    .name & {
+      color: whitesmoke;
+    }
+  }
+  h1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 10px 10px 10px 120px;
+    font-size: 18px;
+    background-color: #333;
+    .name {
+      display: block;
+      font-size: 20px;
+      color: whitesmoke;
+    }
+  }
+  .avatar {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #333;
+    border-radius: 10px;
+  }
+  .infos {
+    position: absolute;
+    left: 120px;
+    bottom: 0;
+    padding: 0;
+    list-style: none;
+    li {
+      display: inline-block;
+      padding-right: 10px;
+    }
+  }
+}
+
+footer {
+  margin: 20px;
+  text-align: center;
+}
